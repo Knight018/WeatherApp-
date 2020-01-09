@@ -5,7 +5,7 @@
 }
 
 .hdr{
-  background-color: #4e03ff;
+  background-color: #B233FF;
   height: 47px;
   color: white;
   width: 100%;
@@ -14,7 +14,7 @@
 .hdr-content{
   margin-top: 5.4px;
   margin-left: 5px;
-  background-color:  #4e03ff;
+  background-color:  #B233FF;
 }
 .pby p{
   color: grey;
@@ -29,43 +29,43 @@
 }
 .bar input{
   background-color: white; /*color name*/
-  height: 24px;
+  height: 25px;
   border: 0px;
   width: 35%;
-  border-radius: 3px;
-  box-shadow: 0px 0px 14px 2px rgba(0, 0, 255, .2);
+  border-radius: 5px;
+  box-shadow: 0px 0px 14px 2px rgba(178, 51, 255 .2);
   padding: 4px;
   font-size: 18px;
 }
 .bar input::-webkit-input-placeholder{ /* Chrome/Opera/Safari */
-  padding-left: 5px;
+  padding-left: 7px;
   font-size: 15px;
 }
 .bar button{ /* Chrome/Opera/Safari */
-  background-color:  #4e03ff;
+  background-color:  #B233FF;
   border: none;
   height: 30px;
   color: white;
   width: 75px;
-  font-size: 18px;
-  border-radius: 3px;
+  font-size: 19px;
+  border-radius: 4px;
 }
 
 .searching p{ /*for searching*/
   background-color: white;
-  margin-left: 4px;
+  margin-left: 5px;
 }
 
 .searching{ /* Chrome/Opera/Safari */
   width: 55%;
   background-color: white;
-  margin-top: 12px;
+  margin-top: 13px;
   height: 55px;
   font-weight: bold;
   padding-top: 30px;
   color: grey;
   text-align: left;
-  box-shadow: 0px 0px 14px 2px rgba(0, 0, 255, .2);
+  box-shadow: 0px 0px 14px 2px rgba(178, 51, 255, .2);
 }
 
 .notfound p{
@@ -81,9 +81,11 @@
   font-weight: bold;
   padding-top: 30px;
   color: grey;
-  box-shadow: 0px 0px 14px 2px rgba(0, 0, 255, .2);
+  box-shadow: 0px 0px 14px 2px rgba(178, 51, 255, .2);
 }
-
+.time{/*time*/
+  display: flex;
+}
 .container{ /*container*/
   margin-top: 12px;
   width: 55%;
@@ -91,27 +93,25 @@
   background-color: white;
   padding: 7px;
   color: #4f4d4d;
-  box-shadow: 0px 2px 18px 0px rgba(0, 0, 255, .6);
+  box-shadow: 0px 2px 18px 0px rgba(178, 51, 255, .6);
 }
-.time{/*time*/
-  display: flex;
-}
+
 .container div{
   background-color: white;
 }
 
 
-.temprature{ /*temperature variable*/
+.temperature{ /*temperature variable*/
   display: flex;
   width: 60%;
   justify-content: center;
   margin-top: 12%;
 }
-.temprature img{
+.temperature img{
   margin-left: 7px;
   background-color: white;
 }
-.temprature:first-child{
+.temperature:first-child{
   font-size: 70px;
   font-weight: bolder;
 }
@@ -142,7 +142,7 @@
 }
 
 
-.cmntContainer{
+.comntContainer{
   background-color: white;
   padding: 15px;
   width: 55%;
@@ -150,14 +150,14 @@
   box-shadow: 0px 0px 14px 2px rgba(0, 0, 255, .2);
   margin: 15px auto;
 }
-.cmntContainer div{
+.comntContainer div{
   background-color: white;
 }
-.cmntContainer input::-webkit-input-placeholder{ /* Chrome/Opera/Safari */
+.comntContainer input::-webkit-input-placeholder{ /* Chrome/Opera/Safari */
   padding-left: 5px;
   font-size: 18px;
 }
-.cmntContainer input{
+.comntContainer input{
   width: 100%;
   height: 55px;
   border-radius: 1.5px;
@@ -165,7 +165,7 @@
   border: 2px solid #ffdbfc;
   font-size: 18px;
 }
-.cmntContainer button{
+.comntContainer button{
   background-color: #4e03ff;
   font-size: 18px;
   color: white;
@@ -176,15 +176,15 @@
   margin-bottom: 15px;
   position: relative;
 }
-.cmntContainer p{
+.comntContainer p{
   background-color: white;
   padding: 5px;
   margin-top: 5px;
 }
-.cmntContainer img{
+.comntContainer img{
   height: 40px;
   width: 40px;
 }
-.listCmnt{
+.listComnt{
   display: flex;
 }

@@ -124,7 +124,7 @@ class App extends Component {
           <div className="time"><div>{this.state.locn}, </div> <div>{this.load()}</div></div>
 
           <div className="content">
-            <div className="temprature">
+            <div className="temperature">
             <div>{Math.floor(this.state.weather.main.temp - 273)}°C</div>
             <div><img src={this.state.iconURLL}/></div>
             </div>
@@ -140,7 +140,7 @@ class App extends Component {
 
   commentBox = () =>{
     return(
-      <div className="cmntContainer">
+      <div className="comntContainer">
         <input onChange={event => this.handleChangeOfComment(event)}
       value={this.state.commentt} placeholder="Enter your comment here..." /><br />
         <button onClick={this.addComment}>Comment</button>
@@ -149,7 +149,7 @@ class App extends Component {
           
           {
             this.state.listOfComments.map(eachElm =>(
-              <div className="listCmnt"><img src="https://png.pngtree.com/png-vector/20190423/ourmid/pngtree-user-icon-vector-illustration-in-glyph-style-for-any-purpose-png-image_975597.jpg" /> <p>{eachElm}</p></div>
+              <div className="listComnt"><img src="https://png.pngtree.com/png-vector/20190423/ourmid/pngtree-user-icon-vector-illustration-in-glyph-style-for-any-purpose-png-image_975597.jpg" /> <p>{eachElm}</p></div>
             ))
           }
 
